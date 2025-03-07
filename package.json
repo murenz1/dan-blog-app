@@ -1,0 +1,28 @@
+{
+  "name": "dan-blog-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murenz1/dan-blog-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/murenz1/dan-blog-app/issues"
+  },
+  "homepage": "https://github.com/murenz1/dan-blog-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "mysql2": "^3.13.0",
+    "pug": "^3.0.3"
+  }
+}

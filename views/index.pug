@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  a.btn.btn-primary.mb-3(href="/create") New Post
+
+  each post in posts
+    .card.mb-3
+      .card-body
+        h5.card-title= post.title
+        p.card-text= post.content
+        small.text-muted Created on #{post.createdAt}
+        br
+        a.btn.btn-warning(href="/edit/" + post.id) Edit
+        form(action="/delete/" + post.id method="POST" style="display:inline")
+          button.btn.btn-danger(type="submit") Delete
